@@ -1,0 +1,24 @@
+<DOCTYPE html>
+
+<!-- DOCTYPE No es una Etiquete si no una declaracion-->
+<html>
+
+<head>
+    <meta charset="UTF-8">   
+</head>
+<!-- El elemento head contiene informacion para ale navgador  y no se visualisa el contenido -->
+
+<title> 
+    Hola Mundo  
+</title>
+<!-- El Elemento Meta No Requiere Etiquete De Cierre -->
+<!-- El elemento title contiene el nombre de la pagina que se muestra en la pestaña del navgador -->
+
+<body>
+	<strong>
+    		Mi Primer Pagina Web
+	</strong>
+</body>
+<!-- El elemento body contiene la informacion que se visualisa como el coontenido -->
+
+</html>
