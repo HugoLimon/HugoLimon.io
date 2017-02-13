@@ -1,0 +1,18 @@
+    body{ 
+    background-image: url("http://www.planwallpaper.com/static/images/880665-road-wallpapers.jpg")
+}
+p{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-block-start: 30px;
+    margin-left: 40px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: lightsalmon;
+
+}
