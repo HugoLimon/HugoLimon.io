@@ -1,0 +1,19 @@
+.caja1
+{
+    position: fixed;
+    background-color: blue;
+    
+
+}
+.caja2
+{
+    /*background-color: orange;*/
+    /*position: relative; left: 50px; top: 100px;*/  
+    z-index: -1; 
+    background-image: url("http://www.planwallpaper.com/static/images/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg");
+    height: 1000px;
+}
+/*.caja1, .caja2
+{
+
+}*/
