@@ -27,7 +27,7 @@ hr {display:none}
 #header {width:900px;height:50px;margin:0 auto;background:url(images/img01.gif) no-repeat left top}
 /* Menu */
 #menu {float:left;width:540px;height:50px}
-#menu ul {margin:0;padding:17px 0 0 20px;list-style:none;line-height:normal}
+#menu ul {margin:0;padding:17px 0 0 20px;line-height:normal}
 #menu li {display:block;float:left}
 #menu a {display:block;float:left;margin-right:5px;padding:0 15px;text-decoration:none;font:14px Georgia, "Times New Roman",Times,serif;color:#fff}
 #menu a:hover {text-decoration:underline}
