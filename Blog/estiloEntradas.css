@@ -17,11 +17,12 @@ body {
   height: 350px;
   background-position: center center;
 }
-.descripcion
+.entrada
 {
     margin: auto;
     padding: 0;
     width: 50%;    
+    margin-bottom: 100px;
 }
 
 
@@ -50,17 +51,18 @@ h3, h4{
     font-size: 20px;
     font-weight: 1;
 }
-ul {
+/*ul {
   margin: 0 auto;
   padding: 0;
   width: 50%;
 }
 
-li {
-  border-bottom: 2px solid lightgrey;
-  list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
+*/li {
+    color: darkslategrey;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 10;
 }
 
 p {
