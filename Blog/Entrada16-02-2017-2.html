@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Hugo Limon</title>
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="estiloEntradas.css" type="text/css">
+</head>
+<body>
+    <div class="header">
+
+        <a href="https://hugolimon.github.io/Blog/blog.html"><h1>TECNOLOGIAS WEB</h1></a>
+
+    </div>
+        <div class="entrada">
+           <h2>Entrada 16/02/2017 12:30am</h4>
+            <h3>Introducción CSS - Clase 30/01/2017</h5>
+            <p>
+               Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de diseño gráfico para definir y crear la presentación 
+               de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas.
+               <br>
+               <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada</a>
+
+
+            </p>
+            <h4>Reglas</h4>
+            <p>Las reglas permiten cambiar la apariencia (presentación) de los elementos de HTML.
+                <br>
+                Sintaxis general Selector{declaraciones}. Las declaraciones se componen de una propiedad: valor.
+            </p>
+            <h3>Ejemplo</h3>
+            <p>
+                selector { propiedad: valor } <br> {color: blue} <br>
+                p { font-size: 200% }
+            </p>
+            <h3>Tipos de estilos </h3>
+            <ul>
+                <li>Por default</li>
+                <li>Del usuario (archivo local)</li>
+                <li>Hoja de estilo externa (utiliza la etiqueta <link> para hacer referencia al archivo)</li>
+                <li>Estilo interno (utiliza la etiqueta &lt;style&gt;)</li>
+                <li>Estilo en linea (se asigna la propiedad y valor como atributo del elemento)</li>
+            </ul>
+            <h3>Selectores CSS</h3>
+            <ul>
+                <li><b> Selectorde tipo</b>
+                    <ul>
+                        <li>Selecciona un tipo de elementop HTML y aplica el estilo a todos los elementos delmismo tipo.<br>
+                            Ej. p{texto-aling:justify;}
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li><b>Selector descendente</b>
+                    <ul>
+                        <li>Aplica el estio a elementos que estan contenidos dentro de otros elementos <br>
+                            p b{color:red;} <br> li b {color:green;}
+                        </li>
+                    </ul>                   
+                </li>
+                <li><b>Selector hijo</b>
+                    <ul>
+                        <li>Similar al decendente pero mas restictivo aplica el esticlo solamente a los
+                            elementos que sean hijos directos de otro elemento.<br> 
+                            Ej. p>b {color:blue;}
+                        </li>
+                    </ul>                   
+                </li>
+                <li><b>Selector por id</b>
+                    <ul>
+                        <li>Un id es un atributo de un elemnto html y se utiliza para aplicar un estilo de manera particular. <br>
+                            Ejemplo: &lt;p id="introduccion"&gt;<br>
+                            Un selector por id utiliza el simbolo # <br> #introduccion {color:blue;}
+                        </li>
+                    </ul>                   
+                </li>
+                <li><b>Selector por clase</b>
+                    <ul>
+                        <li>
+                            Aplicar estilo a un conjunto de elementos
+                            Ej.
+                            &lt;p class="especial"&gt; este es un parrafo especial&lt;/p &gt;<br>
+                            /* en CSS */<br>
+                            .especial{color:red}
+                        </li>
+                    </ul>                   
+                </li>
+                <li><b>Selector universal *</b>
+                    <ul>
+                        <li>
+                            Aplica el mismo estilo a todos los elementos de la pagina los estilos se heredan, si aplicas estilo un elemento, todos los elementos. 
+                        </li>
+                    </ul>                   
+                </li>
+
+            </ul>
+                
+
+                
+            
+ 
+        </div>
+    </div>
+
+</body>
+<foot>  
+</foot>
+</html>
